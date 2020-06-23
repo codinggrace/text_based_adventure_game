@@ -1,4 +1,4 @@
-![alt Coding Grace](http://static.tumblr.com/f5a835f89cdea6f39d21d62ed5cc683f/mtdjmjz/oGsmom2bl/tumblr_static_coding_grace_mark_iismaller.png "Coding Grace")
+![alt Coding Grace](https://www.codinggrace.com/static/images/cg-logo.png)
 
 # PRE-REQUISITES
 
