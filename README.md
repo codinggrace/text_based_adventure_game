@@ -2,15 +2,11 @@
 
 # PRE-REQUISITES
 
-Your laptop with Python 2.7.x or 3.6.x installed.
+Your laptop with 3.6.x (onwards) installed.
 
 NOTE: Those with Linux and MacOSX would have Python installed by default, no action required.
 
 Windows: Download the version for your laptop via [https://www.python.org/downloads/](https://www.python.org/downloads/)
-
-
-If you are using Python 3.4.2, you can find the workshop content in *python3* directory. There are small changes for scripts to work:
-- changed `raw_input` to `input`
 
 
 # NOTES
