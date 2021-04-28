@@ -12,9 +12,9 @@ Windows: Download the version for your laptop via [https://www.python.org/downlo
 # NOTES
 
 - In your preferred editor, make sure indentation is set to "4 spaces".
-
+- There's an [instructor's guide](https://coding-grace-guide.readthedocs.io/en/latest/guide/lessonplans/beginners-python-text-based-adventure.html) that accompany this workshop. 
 
 # REFERENCES
 
-* Learning Python the Hard Way: [http://learnpythonthehardway.org/](http://learnpythonthehardway.org/) (See Chapter 43 on one way of implementing FSM)
+* Inspired by Learning Python the Hard Way: [http://learnpythonthehardway.org/](http://learnpythonthehardway.org/) (See Chapter 43 on one way of implementing FSM)
 * Other resources: [http://www.codinggrace.com/resources/](http://www.codinggrace.com/resources/)
