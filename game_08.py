@@ -66,7 +66,7 @@ def blue_door_room():
                 treasure_chest.remove("sword")
                 print("\tYou take the shinier sword from the treasure chest. It does looks exceedingly shiney.")
                 print("\tWoohoo! Bounty and a shiney new sword. /drops your crappy sword in the empty treasure chest.")
-                
+
                 temp_treasure_list = treasure_chest[:]
                 treasure_contents = ", ".join(treasure_chest)
                 print(f"\tYou also receive {treasure_contents}.")

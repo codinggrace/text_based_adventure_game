@@ -24,7 +24,7 @@ def main():
     Gets the players name, print it out and starts the adventure.
     '''
     player_name =  input("What's your name? >")
-    print(f"Your name is {player_name}")
+    print(f"Hello, {player_name}. Welcome to the game.")
 
     # Calls another function, declare it above.
     start_adventure()
