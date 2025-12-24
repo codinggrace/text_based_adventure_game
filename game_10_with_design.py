@@ -10,7 +10,7 @@ import os
 def you_died(why):
     print_game_over()
     # You expect a reason why the player died. It's a string.
-    print("{}. Good job!".format(why))
+    print(f"{why}. Good job!")
 
     # This exits the program entirely.
     exit(0)
@@ -82,13 +82,13 @@ def blissful_ignorance_of_illusion_room():
 
             # So much treasure, what to do? Take it or leave it.
             print("What do you want to do?")
-            print("Take all {} treasure, press '1'".format(len(treasure_chest)))
+            print(f"Take all {len(treasure_chest)} treasure, press '1'.")
             print("Leave it, press '2'")
 
             treasure_choice = input("> ")
             if treasure_choice == "1":
                 print("\tWoohoo! Bounty and a shiney new sword. /drops your crappy sword in the empty treasure chest.")
-                print("\tYou just received [{}]".format(", ".join(treasure_chest)))
+                print(f"\tYou just received [{", ".join(treasure_chest)}]")
             elif treasure_choice == "2":
                 print("It will still be here (I hope), right after I get past this guard")
             
@@ -126,14 +126,14 @@ def get_player_name():
 
     # This is just an alternative name that the game wants to call the player
     alt_name = "Rainbow Unicorn"
-    answer = input("Your name is {}, is that correct? [Y|N] > ".format(alt_name.upper()))
+    answer = input(f"Your name is {alt_name.upper()}, is that correct? [Y|N] > ")
     if answer.lower() in ["y", "yes"]:
         name = alt_name
-        print("You are fun, {}! Let's begin our adventure!".format(name.upper()))
+        print(f"You are fun, {name.upper()}! Let's begin our adventure!")
     elif answer.lower() in ["n", "no"]:
-        print("Ok, picky. {} it is. Let's get started on our adventure.".format(name.upper()))
+        print(f"Ok, picky. {name.upper()} it is. Let's get started on our adventure.")
     else:
-        print("Trying to be funny? Well, you will now be called {} anyway.".format(alt_name.upper()))
+        print(f"Trying to be funny? Well, you will now be called {alt_name.upper()} anyway.")
         name = alt_name
 
     # Now notice that we are returning the variable called name.
@@ -164,7 +164,7 @@ def main():
     # ACTIVITIES
     # 
     # Read some of the best practices when writing Python code
-    #   http://legacy.python.org/dev/peps/pep-0008/
+    #   https://peps.python.org/pep-0008/
     # Main thing is if you are using tabs, make sure it's 4-spaces,
     # most editors will convert it (check preferences/settings).
     #
@@ -186,7 +186,7 @@ def main():
     start_adventure()
     
     print("\nThe end\n")
-    print("Thanks for playing, {}".format(player_name.upper()))
+    print(f"Thanks for playing, {player_name.upper()}")
     
 
 
