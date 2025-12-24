@@ -11,8 +11,7 @@ def you_died(why):
     Prints reason why they player died. 
     Programme exits without error.
     '''
-    print("{}. Good job!".format(why))
-
+    print(f"{why}. Good job!")
     # This exits the program entirely.
     exit(0)
 
