@@ -1,7 +1,7 @@
 # Now we have a premise. We are in a room and we have two door to 
 # choose from.
 # We are still in the blue room. What do we do with the treasure chest?
-# New code starts at line 33
+# New code starts at line 48
 #
 # Run this code a few times and see what happens with different choices.
 # It's good to test all options and see if that's what you expected.
